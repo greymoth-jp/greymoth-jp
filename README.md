@@ -40,6 +40,6 @@ iOS      Capacitor · fastlane match · GitHub Actions cloud build
 AI       Claude · Gemini · Ollama · MCP
 ```
 
-### 💬 業務委託 / Work with me
+### 💬 Work with me
 
-業務委託・フルリモート・週20〜30h で動けます。設計から実装・デプロイ・運用まで一気通貫で、スタックの合うプロダクトに関わりたいと思ってます。気軽に声かけてください。
+Available for contract work — fully remote, 20–30 h/week. I take products end to end: design → build → deploy → operate, and I'd like to work on something where the stack lines up. Feel free to reach out.
