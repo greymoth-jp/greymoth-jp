@@ -9,7 +9,10 @@
 | **[zatca-toolkit](https://github.com/greymoth-jp/zatca-toolkit)** · `Go` `WASM` `TS` | Saudi **ZATCA / EN16931** e-invoicing engine — generate, validate & sign compliant invoices on your own infra. 15/15 official-fixture conformance, secp256k1 signing, honest scope. |
 | **[inkdex](https://github.com/greymoth-jp/inkdex)** · `MV3` | Track your ChatGPT / Claude usage locally, then print a risograph **"Wrapped"** card. No account, **nothing leaves your browser.** |
 | **[ccwrapped](https://github.com/greymoth-jp/ccwrapped)** · `Node` | Local **Claude Code** usage analytics + a shareable Wrapped card. Reads `~/.claude`, sends nothing. |
+| **[ghwrapped](https://github.com/greymoth-jp/ghwrapped)** · `JS` | Turn any public GitHub profile into a shareable risograph **Wrapped** card. Public data only, no token. |
 | **[geo-checker](https://github.com/greymoth-jp/geo-checker)** · `TS` | Score any URL for AI-search / **GEO** readiness (llms.txt, JSON-LD, answer-proximity…). |
+
+> *inkdex · ccwrapped · ghwrapped* are one **risograph "Wrapped" card** family — same editorial design language, all client-side.
 
 ### 🚀 Live (no signup, runs in your browser)
 
