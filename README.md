@@ -17,6 +17,7 @@ The signal that counts is the one someone else accepted. Every claim below click
 
 - **Merged into real OSS** — code a maintainer reviewed and merged:
   - **[medusajs/medusa #15839](https://github.com/medusajs/medusa/pull/15839)** — filled 511 missing `ja` dashboard keys
+  - **[usememos/memos #6048](https://github.com/usememos/memos/pull/6048)** — filled 24 missing `ja` keys
   - **[janhq/jan #8349](https://github.com/janhq/jan/pull/8349)** — `common.json` + terminology fixes
   - **[janhq/jan #8348](https://github.com/janhq/jan/pull/8348)** — Japanese translation update
 - **More in review** across several projects — open PRs are listed live (and clearly marked as *in review*, not merged) on the [proof dashboard](https://greymoth-jp.github.io/proof-dashboard/), which reads straight from the GitHub API.
