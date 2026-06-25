@@ -11,12 +11,18 @@
 | 🇯🇵 **[Japan-Readiness Index](https://greymoth-jp.github.io/japan-readiness-index/)** | How ready are foreign dev-tools for the Japanese market? A scored, public index. |
 | ⭐ **[Follow for launches](https://github.com/greymoth-jp)** | I ship in public. Follow and you'll see the next tool the day it's out. |
 
-### 📈 OSS contributions (verified, live)
+### 📈 Proof a third party guarantees (not numbers I typed)
 
-I make foreign dev-tools usable in Japanese — I open PRs that fill in missing `ja` translations and fix terminology.
+The signal that counts is the one someone else accepted. Every claim below clicks through to GitHub or Apple — check the state yourself.
 
-- **3 merged · 15 open** — counted live on the [proof dashboard](https://greymoth-jp.github.io/proof-dashboard/), not asserted here.
-- Merged into **[medusajs/medusa](https://github.com/medusajs/medusa/pull/15839)** (511 missing `ja` keys) and **[janhq/jan](https://github.com/janhq/jan/pull/8349)** (`common.json` + terminology).
+- **Merged into real OSS** — code a maintainer reviewed and merged:
+  - **[medusajs/medusa #15839](https://github.com/medusajs/medusa/pull/15839)** — filled 511 missing `ja` dashboard keys
+  - **[janhq/jan #8349](https://github.com/janhq/jan/pull/8349)** — `common.json` + terminology fixes
+  - **[janhq/jan #8348](https://github.com/janhq/jan/pull/8348)** — Japanese translation update
+- **More in review** across several projects — open PRs are listed live (and clearly marked as *in review*, not merged) on the [proof dashboard](https://greymoth-jp.github.io/proof-dashboard/), which reads straight from the GitHub API.
+- **Shipped to the iOS App Store** — **[TANE — daily bloom](https://apps.apple.com/app/id6779623465)** passed Apple's review and is live (seller: Mahiro Hirakawa). Apple guarantees the listing; open it.
+
+> These are deliberately *technical* proofs — a merged PR and an App Store listing are things a maintainer or an engineer can verify in one click. That's the audience I'm building for.
 
 ### 🔧 Open source
 
