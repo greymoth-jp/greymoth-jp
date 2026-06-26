@@ -15,7 +15,11 @@
 
 The signal that counts is the one someone else accepted. Every claim below clicks through to GitHub or Apple — check the state yourself.
 
-- **Merged into real OSS** — code a maintainer reviewed and merged:
+- **Merged into real OSS** — code a maintainer reviewed and merged (JS · Java · Rust · Python):
+  - **[vitejs/vite #22781](https://github.com/vitejs/vite/pull/22781)** — hardened the dev index-html middleware so a malformed URL can't crash `decodeURIComponent`
+  - **[langchain4j/langchain4j #5600](https://github.com/langchain4j/langchain4j/pull/5600)** — escaped `LIKE` wildcards in the Milvus metadata filter (Java)
+  - **[console-rs/indicatif #816](https://github.com/console-rs/indicatif/pull/816)** — fixed `HumanFloatCount` dropping the fractional part (Rust)
+  - **[lepture/mistune #458](https://github.com/lepture/mistune/pull/458)** — fixed the emphasis "rule of 3" in the Markdown parser (Python)
   - **[medusajs/medusa #15839](https://github.com/medusajs/medusa/pull/15839)** — filled 511 missing `ja` dashboard keys
   - **[usememos/memos #6048](https://github.com/usememos/memos/pull/6048)** — filled 24 missing `ja` keys
   - **[janhq/jan #8349](https://github.com/janhq/jan/pull/8349)** — `common.json` + terminology fixes
