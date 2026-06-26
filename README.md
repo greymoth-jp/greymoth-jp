@@ -15,13 +15,17 @@
 
 The signal that counts is the one someone else accepted. Every claim below clicks through to GitHub or Apple — check the state yourself.
 
-- **Merged into real OSS** — code a maintainer reviewed and merged (JS · Java · Rust · Python):
+- **Merged into real OSS** — code a maintainer reviewed and merged (JS · TS · Java · Rust · Python · Go):
   - **[vitejs/vite #22781](https://github.com/vitejs/vite/pull/22781)** — hardened the dev index-html middleware so a malformed URL can't crash `decodeURIComponent`
   - **[langchain4j/langchain4j #5600](https://github.com/langchain4j/langchain4j/pull/5600)** — escaped `LIKE` wildcards in the Milvus metadata filter (Java)
   - **[console-rs/indicatif #816](https://github.com/console-rs/indicatif/pull/816)** — fixed `HumanFloatCount` dropping the fractional part (Rust)
   - **[lepture/mistune #458](https://github.com/lepture/mistune/pull/458)** — fixed the emphasis "rule of 3" in the Markdown parser (Python)
+  - **[nestjs/nest #17207](https://github.com/nestjs/nest/pull/17207)** — fixed `scanForClientHooks` skipping function-valued members in microservices (TS)
+  - **[image-rs/image #3056](https://github.com/image-rs/image/pull/3056)** — fixed the ICO decoder to only reject >256 color planes in strict mode (Rust)
+  - **[gin-gonic/gin #4717](https://github.com/gin-gonic/gin/pull/4717)** — fixed a `BindXML` doc comment pointing to a non-existent function (Go)
   - **[medusajs/medusa #15839](https://github.com/medusajs/medusa/pull/15839)** — filled 511 missing `ja` dashboard keys
   - **[usememos/memos #6048](https://github.com/usememos/memos/pull/6048)** — filled 24 missing `ja` keys
+  - **[janhq/jan #8352](https://github.com/janhq/jan/pull/8352)** — completed missing `settings.json` Japanese translations
   - **[janhq/jan #8349](https://github.com/janhq/jan/pull/8349)** — `common.json` + terminology fixes
   - **[janhq/jan #8348](https://github.com/janhq/jan/pull/8348)** — Japanese translation update
 - **More in review** across several projects — open PRs are listed live (and clearly marked as *in review*, not merged) on the [proof dashboard](https://greymoth-jp.github.io/proof-dashboard/), which reads straight from the GitHub API.
@@ -51,6 +55,10 @@ The signal that counts is the one someone else accepted. Every claim below click
 - **[Overfit-Checker](https://overfit-checker.vercel.app)** — is your backtest overfit? Deflated Sharpe + P(overfit)
 - **[Deliverability-Checker](https://deliverability-checker.vercel.app)** — SPF / DMARC / DKIM score for cold-email senders
 - **[Warikancho](https://warikancho.vercel.app)** — split a group bill with the fewest transfers
+
+### ✍️ Writing
+
+- **[The same few bugs keep hiding in libraries you already trust](https://dev.to/greymothjp/the-same-few-bugs-keep-hiding-in-libraries-you-already-trust-1pgp)** — dev.to
 
 ### 🧭 How I build
 
