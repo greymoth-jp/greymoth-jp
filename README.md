@@ -1,4 +1,4 @@
-# greymoth
+![greymoth — solo builder, 19, Tokyo. Small, honest, mostly client-side dev tools, and foreign software made Japan-ready by filing fixes into real open source.](banner.png)
 
 **19, Tokyo. Solo builder.** I ship small, honest, mostly client-side dev tools — and I make foreign software Japan-ready by filing translation fixes into real OSS. House rule: say *"passes our rules,"* never *"certified."* I publish what *didn't* work, too.
 
