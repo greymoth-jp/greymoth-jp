@@ -1,0 +1,44 @@
+name: Update live proof
+
+# Reads merged / open PR counts and the corpus size straight from the GitHub API
+# and rewrites the block between the PROOF markers in README.md. The numbers are
+# API-derived, so they cannot be inflated by hand.
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # daily, 06:17 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-proof
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Rewrite the PROOF block from live API counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-proof.mjs
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "greymoth-jp"
+          git config user.email "greymoth-jp@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(proof): refresh live PR/corpus counts"
+          git push
