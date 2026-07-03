@@ -4,7 +4,7 @@
 
 | merged into OSS | open, in review | failures catalogued |
 |:---:|:---:|:---:|
-| **105** | **211** | **97** |
+| **112** | **190** | **97** |
 
 <sub>Read live from the GitHub API on 2026-07-03. Nothing on this line is hand-typed.</sub>
 
