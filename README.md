@@ -1,13 +1,16 @@
 ![greymoth — less, but honest.](assets/banner.png)
 
+i hunt the text bugs that quietly break software everywhere: unicode, ime, encoding.
+<sub>hardest to catch, hardest to reproduce: cjk and japanese. most of the proof below traces back there.</sub>
+
 <!--PROOF:start-->
 
 | merged into OSS | open, in review | failures catalogued |
 |:---:|:---:|:---:|
-| **112** | **190** | **97** |
+| **113** | **145** | **97** |
 
-<sub>Read live from the GitHub API on 2026-07-03. Nothing on this line is hand-typed.</sub>
+<sub>Read live from the GitHub API on 2026-07-04. Nothing on this line is hand-typed.</sub>
 
 <!--PROOF:end-->
 
-[glovrex](https://glovrex.com) · [i18n-swarm](https://github.com/greymoth-jp/i18n-swarm) · [cjk-corpus](https://github.com/greymoth-jp/cjk-failure-corpus) · [proof](https://greymoth-jp.github.io/proof-dashboard/) · [hub](https://greymoth-jp.github.io) · [X](https://x.com/greymoth__)
+[corpus](https://greymoth-jp.github.io/cjk-failure-corpus/) · [fixtures](https://github.com/greymoth-jp/cjk-agent-fixtures) · [proof](https://greymoth-jp.github.io/proof-dashboard/) · [hub](https://greymoth-jp.github.io) · [dev.to](https://dev.to/greymothjp) · [X](https://x.com/greymoth__) · [i18n-swarm](https://github.com/greymoth-jp/i18n-swarm) · [glovrex](https://glovrex.com)
