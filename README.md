@@ -13,4 +13,4 @@ i hunt the text bugs that quietly break software everywhere: unicode, ime, encod
 
 <!--PROOF:end-->
 
-[corpus](https://greymoth-jp.github.io/cjk-failure-corpus/) · [fixtures](https://github.com/greymoth-jp/cjk-agent-fixtures) · [proof](https://greymoth-jp.github.io/proof-dashboard/) · [hub](https://greymoth-jp.github.io) · [dev.to](https://dev.to/greymothjp) · [X](https://x.com/greymoth__) · [i18n-swarm](https://github.com/greymoth-jp/i18n-swarm) · [glovrex](https://glovrex.com)
+[corpus](https://greymoth-jp.github.io/cjk-failure-corpus/) · [fixtures](https://github.com/greymoth-jp/cjk-agent-fixtures) · [benchmark](https://github.com/greymoth-jp/cjk-compliance-bench) · [report](https://github.com/greymoth-jp/cjk-failure-corpus/blob/main/paper/DRAFT.md) · [proof](https://greymoth-jp.github.io/proof-dashboard/) · [hub](https://greymoth-jp.github.io) · [dev.to](https://dev.to/greymothjp) · [X](https://x.com/greymoth__) · [i18n-swarm](https://github.com/greymoth-jp/i18n-swarm) · [glovrex](https://glovrex.com)
