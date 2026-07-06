@@ -7,9 +7,9 @@ i hunt the text bugs that quietly break software everywhere: unicode, ime, encod
 
 | merged into OSS | open, in review | failures catalogued |
 |:---:|:---:|:---:|
-| **121** | **138** | **97** |
+| **124** | **135** | **97** |
 
-<sub>Read live from the GitHub API on 2026-07-05. Nothing on this line is hand-typed.</sub>
+<sub>Read live from the GitHub API on 2026-07-06. Nothing on this line is hand-typed.</sub>
 
 <!--PROOF:end-->
 
