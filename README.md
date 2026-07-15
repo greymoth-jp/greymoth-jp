@@ -9,7 +9,7 @@ i hunt the text bugs that quietly break software everywhere: unicode, ime, encod
 |:---:|:---:|:---:|
 | **136** | **123** | **129** |
 
-<sub>Read live from the GitHub API on 2026-07-14. Nothing on this line is hand-typed.</sub>
+<sub>Read live from the GitHub API on 2026-07-15. Nothing on this line is hand-typed.</sub>
 
 <!--PROOF:end-->
 
